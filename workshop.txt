@@ -1,0 +1,5 @@
+version=1
+title=Filled Mags
+description=Magazines found in the world are already loaded with ammunition.
+tags=
+visibility=private

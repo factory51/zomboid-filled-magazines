@@ -1,0 +1,7 @@
+name=Filled Mags
+id=FilledMags
+description=Magazines found in the world are already loaded with ammunition.
+author=factory51
+versionMin=42.0.0
+poster=poster.png
+icon=icon.png

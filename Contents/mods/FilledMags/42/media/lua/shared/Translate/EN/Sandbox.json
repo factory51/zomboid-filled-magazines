@@ -1,0 +1,6 @@
+{
+	"Sandbox_FilledMags": "Filled Mags",
+	"Sandbox_FilledMags_Chance": "Chance a found magazine is loaded (percent)",
+	"Sandbox_FilledMags_MinFillPercent": "Minimum fill when loaded (percent)",
+	"Sandbox_FilledMags_MaxFillPercent": "Maximum fill when loaded (percent)"
+}
