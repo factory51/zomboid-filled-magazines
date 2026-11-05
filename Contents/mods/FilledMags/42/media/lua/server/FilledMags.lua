@@ -9,6 +9,10 @@ local function fillMagazines(roomName, containerType, itemContainer)
     local opts = SandboxVars.FilledMags
     if not opts then return end
 
+    -- Procedural rolls can fire this event with the distribution definition
+    -- (ItemPickerContainer) instead of a real container; there is nothing to fill then.
+    if not instanceof(itemContainer, "ItemContainer") then return end
+
     local minPct = math.min(opts.MinFillPercent, opts.MaxFillPercent)
     local maxPct = math.max(opts.MinFillPercent, opts.MaxFillPercent)
 
